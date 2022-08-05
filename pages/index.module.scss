@@ -1,0 +1,85 @@
+@import '../styles/variables.scss';
+
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 650px) {
+    margin-top: 5rem;
+  }
+}
+
+.myPicWrapper {
+  display: none;
+  height: 10rem;
+  @media screen and (max-width: $mobile-width) {
+    display: unset;
+  }
+}
+
+.myPic {
+  max-height: 100%;
+  border-radius: 50%;
+  border: 4px solid $theme-color;
+}
+
+.title1 {
+  line-height: 1;
+  font-size: 2rem;
+  @media screen and (max-width: $mobile-width) {
+    font-size: 1.5rem;
+  }
+}
+
+.title2 {
+  margin: 0;
+  line-height: 1;
+  font-size: 3.5rem;
+  @media screen and (max-width: $mobile-width) {
+    font-size: 2rem;
+  }
+}
+
+.description {
+  line-height: 1;
+  font-size: 1.5rem;
+  @media screen and (max-width: $mobile-width) {
+    font-size: 1rem;
+  }
+}
+
+.title1,
+.title2,
+.description {
+  text-align: center;
+}
+
+.sayHello {
+  background-color: black;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  a {
+    color: white;
+  }
+}
+
+.sayHello:hover {
+  background-color: grey;
+  cursor: pointer;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

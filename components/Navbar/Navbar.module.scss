@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.headerLogo a {
+  display: flex;
+}
+
+.headerText {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.logoWrapper {
+  margin-left: 20px;
+  height: 80px;
+  img {
+    max-height: 100%;
+  }
+}
+
+.headerLogo a:hover {
+  text-decoration: none;
+}
+
+.headerLogoHovered {
+  animation-name: logo-bounce-animation;
+  animation-duration: 1s;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.headerLinks li {
+  padding: 0 12px;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.active {
+  text-decoration: underline;
+}

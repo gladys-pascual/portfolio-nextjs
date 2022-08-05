@@ -1,0 +1,89 @@
+.projectsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  @media screen and (max-width: 650px) {
+    padding-top: 10vh;
+    max-width: 90vw;
+  }
+  @media screen and (max-width: 500px) {
+    max-width: 100vw;
+  }
+}
+
+.project {
+  width: 400px;
+  height: 450px;
+  background-color: rgb(248, 247, 245);
+  border-radius: 4px;
+  box-shadow: rgb(136, 136, 136) 5px 5px 4px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.projectTitle {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projectDescription {
+  padding: 0 12px;
+  text-align: center;
+  font-size: small;
+}
+
+.projectImage {
+  margin: 0 10px 10px 10px;
+}
+
+.tech {
+  font-weight: 600;
+  letter-spacing: 0.5;
+}
+
+.linkWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.links {
+  margin: 0 12px;
+  background-color: black;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 10px;
+  a {
+    color: white;
+    span {
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    }
+  }
+}
+
+.links:hover {
+  background-color: grey;
+  cursor: pointer;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.linkText {
+  padding-left: 4px;
+  font-weight: 400;
+}

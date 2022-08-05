@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footerSocials {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 10px;
+    font-size: 2rem;
+    list-style-type: none;
+    i:hover {
+      color: grey;
+    }
+  }
+}
+
+.copyrightText {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+// footer img {
+//   margin-left: 0.5rem;
+// }
+
+// footer a {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

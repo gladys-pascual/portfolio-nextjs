@@ -1,0 +1,19 @@
+.iconWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2vh;
+  @media screen and (max-width: 1170px) {
+    padding-top: 1vh;
+  }
+}
+
+.icon {
+  width: 4vh;
+  @media screen and (max-width: 1170px) {
+    width: 3vh;
+  }
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,109 @@
+@import '../../styles/variables.scss';
+
+.contactCard,
+.contactCardFront,
+.contactCardBack {
+  background-color: rgb(248, 247, 245);
+  border-radius: 4px;
+  box-shadow: rgb(136, 136, 136) 5px 5px 4px;
+  width: 500px;
+  height: 250px;
+  @media screen and (max-width: 650px) {
+    width: 300px;
+    height: 420px;
+  }
+}
+
+.flipCardWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  margin-bottom: 50px;
+  @media screen and (max-width: 650px) {
+    padding-top: 20vh;
+  }
+}
+
+.flipMe {
+  background: none;
+  border: none;
+  align-self: flex-start;
+  padding: 10px 20px;
+  transform: rotate(-15deg);
+  cursor: pointer;
+  position: relative;
+  bottom: 40px;
+}
+
+.flipMe:hover {
+  font-weight: 800;
+}
+
+.contactImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactCardFront {
+  @media screen and (max-width: 650px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contactCardBack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 12px;
+  line-height: 28px;
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+}
+
+.myPicContact {
+  width: 150px;
+  height: 150px;
+  img {
+    width: 100%;
+    border-radius: 50%;
+    border: 12px $theme-color;
+
+    margin-left: 20px;
+  }
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @media screen and (max-width: 650px) {
+    align-items: center;
+  }
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0px 0px 8px 0px;
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+  }
+}
+
+.mobileNum {
+  font-weight: normal;
+}
+
+.job {
+  margin: 0px 0px 12px 0px;
+  font-weight: 500;
+}
+
+.contactLink {
+  margin: 6px 0;
+  line-height: 28px;
+}

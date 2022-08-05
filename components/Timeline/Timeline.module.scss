@@ -1,0 +1,50 @@
+.journeyToTech {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.timelineWrapper {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline {
+  width: 70vw;
+}
+
+.verticalTimelineElementSubtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1em;
+}
+
+.verticalTimelineElementDate {
+  margin: 0 12px;
+}
+
+.verticalTimelineElementSubtitle.bootcamp {
+  margin-bottom: 8px;
+}
+
+.verticalTimelineElementSubtitle + .partTime {
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-top: 4px;
+  font-size: 0.8em;
+}
+
+.timelineText {
+  letter-spacing: 2px;
+}
+
+.codeInstituteDiploma {
+  text-decoration: underline;
+}
+
+.codeInstituteDiploma:hover {
+  cursor: pointer;
+  color: grey;
+}
