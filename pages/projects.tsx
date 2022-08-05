@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import styles from './projects.module.scss';
-import stockFinderImage from '../public/projects/stockFinder.png';
+import stockFinderImage from '../public/projects/stockfinder.png';
 import plantleyImage from '../public/projects/plantley.png';
 import moneyMeImage from '../public/projects/moneyme.png';
 import showMeImage from '../public/projects/showme.png';
