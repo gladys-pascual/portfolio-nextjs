@@ -18,9 +18,9 @@ export default function About() {
           </div>
           <div>
             <p className={styles.aboutIntroText}>
-              Hi there, I'm Gladys, a frontend focused software engineer based
+              Hi there, I'm Gladys, a frontend-focused software engineer based
               in Dublin, Ireland. My main technologies are React and Typescript,
-              but I enjoy enhancing my skills by building{' '}
+              and I enjoy enhancing my skills by building{' '}
               <Link href="/projects">
                 <span className={styles.projectLink}>projects</span>
               </Link>
@@ -28,12 +28,12 @@ export default function About() {
             </p>
 
             <p className={styles.aboutIntroText}>
-              My goal is to become a T-shaped software engineer, specialized in
-              the frontend, with broad knowledge in backend.
+              My goal is to become a T-shaped software engineer, who is
+              specialized in the frontend, with broad knowledge of backend.
             </p>
 
             <p className={styles.aboutIntroText}>
-              When I'm not coding, I train weightlifitng and compete at a
+              When I'm not coding, I train in weightlifting, and compete at a
               national level. You can also find me drinking good coffee, eating
               delicious food, or watering my house plants.
             </p>

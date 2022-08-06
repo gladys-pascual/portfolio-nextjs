@@ -25,7 +25,7 @@ const Timeline = () => {
               icon={<WorkIcon />}
             >
               <h4 className={styles.verticalTimelineElementSubtitle}>
-                Software Engineer II
+                Software Engineer
               </h4>
               <p className={styles.timelineText}>Squarespace</p>
             </VerticalTimelineElement>

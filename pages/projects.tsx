@@ -22,7 +22,7 @@ export default function Projects() {
               <span className={styles.tech}>React</span>,{' '}
               <span className={styles.tech}>Typescript</span>,{' '}
               <span className={styles.tech}>Django</span>, and{' '}
-              <span className={styles.tech}>Stripe</span>, that allow customers
+              <span className={styles.tech}>Stripe</span>, that allows customers
               to buy houseplants, with or without an account, and allows admin
               users to manage their shop inventory.
             </p>
@@ -68,7 +68,7 @@ export default function Projects() {
           <div>
             <h4 className={styles.projectTitle}>Budget Tracker App</h4>
             <p className={styles.projectDescription}>
-              Budget tracker web application that is mobile friendly that help
+              Budget tracker web application that is mobile friendly that helps
               track expenses, built using{' '}
               <span className={styles.tech}>React</span> and
               <span className={styles.tech}> AWS lambda</span>. To test, use
@@ -225,8 +225,8 @@ export default function Projects() {
           <div>
             <h4 className={styles.projectTitle}>Complex To Do</h4>
             <p className={styles.projectDescription}>
-              A slightly more complex to-do list, where lists can have a tasks
-              and subtasks. Purely frontend focused, no database, built using{' '}
+              A slightly more complex to-do list, where lists can have tasks and
+              subtasks. Purely frontend focused, no database, built using{' '}
               <span className={styles.tech}>React</span>.
             </p>
           </div>
@@ -274,9 +274,9 @@ export default function Projects() {
             <p className={styles.projectDescription}>
               BG scores is a web application built using{' '}
               <span className={styles.tech}>Flask</span> and{' '}
-              <span className={styles.tech}>JavaScript</span> that allows user
-              to record the played boardgames, including the date of the game,
-              the players and their scores.
+              <span className={styles.tech}>JavaScript</span> that allows users
+              to record the board games played, including the date of the game,
+              the players, and their scores.
             </p>
           </div>
           <div>
